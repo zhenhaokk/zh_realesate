@@ -44,10 +44,7 @@ export const Banner = ({
 };
 
 const Home = ({ propertiesForSale, propertiesForRent }) => {
-  console.log(propertiesForSale);
-  console.log(propertiesForRent);
   return (
-    // console.log({purpose}),
     <Box>
       <Banner
         purpose={"RENT A HOME'"}
